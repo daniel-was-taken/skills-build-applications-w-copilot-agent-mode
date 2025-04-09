@@ -1,0 +1,68 @@
+/* General styles */
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation menu */
+.navbar {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+}
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffcc00 !important; /* Gold hover color */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff; /* Bootstrap primary color */
+}
+
+/* Tables */
+.table {
+  background-color: #ffffff; /* White background */
+  border: 1px solid #ddd;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9; /* Light gray for striped rows */
+}
+
+/* Buttons */
+.btn {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+}
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Logo */
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Favicon */
+.favicon {
+  width: 16px;
+  height: 16px;
+}
